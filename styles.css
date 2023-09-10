@@ -1,0 +1,108 @@
+/* styles.css */
+
+/* Apply basic styles to the body */
+/* Add CSS to position the new image */
+.top-right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+}
+
+body {
+    background-color: black;
+    margin: 0; /* Remove default margin to prevent spacing */
+    padding: 0; /* Remove default padding to prevent spacing */
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Set default text color */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(9, 4, 111, 0.1);
+}
+
+/* Page title styles */
+h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Filter section styles */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 148px;
+    background-color: orange;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(192, 174, 174, 0.1);
+}
+
+.filter {
+    flex: 1;
+    max-width: 300px;
+    color: black;
+}
+
+/* Filter input styles */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+/* Blog results section styles */
+.blog-results {
+    margin-top: 20px;
+}
+
+.blog-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), black;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: red; /* Set text color to white for better readability */
+}
+
+.blog-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style tags and club labels */
+p {
+    margin: 5px 0;
+    color: white;
+}
+
+/* Style the "No matching blogs found" message */
+.blog-results p.no-matching-blogs {
+    font-style: italic;
+    color: #090909;
+}
+#search, #tag-filter, #club-filter {
+    margin-right: 500px; /* Adjust the margin as needed */
+}
+
